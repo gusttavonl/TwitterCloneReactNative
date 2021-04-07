@@ -11,12 +11,14 @@ import {
     PostRightNameUser,
     PostRightNameArrow,
     PostRightText,
-    PostRightIcons
+    PostRightIcons,
+    PostRightIconsItem,
+    PostRightIconsItemOne
 } from './styles'
 import { MaterialIcons } from '@expo/vector-icons';
 export default function Feed() {
-    const imagemAvatar = "https://avatars.githubusercontent.com/u/77861206?v=4"
-    const imagemBody = "https://user-images.githubusercontent.com/77861206/108550523-70b98280-72cd-11eb-8cb1-62b0dee4c1c1.PNG"
+    const imagemAvatar = "https://avatars.githubusercontent.com/u/77861206?v=4";
+   
     return (
         <View>
             <PostList>
@@ -34,16 +36,156 @@ export default function Feed() {
                                 @noronhaax
                             </PostRightNameUser>
                             <PostRightNameArrow>
-                                <MaterialIcons name="keyboard-arrow-down" size={25} color="gray" />
+                                <MaterialIcons name="keyboard-arrow-down" size={25} color="white" />
                             </PostRightNameArrow>
                         </PostRightName>
                         <PostRightText>
-                            Ola, olha meu novo tweet cheio de emojis ❤️😄🙂
+                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
                         </PostRightText>
                         <PostRightIcons>
-                            <MaterialIcons name="message" size={25} color="gray" />
-                            <MaterialIcons name="favorite-border" size={25} color="gray" />
-                            <MaterialIcons name="send" size={25} color="gray" />
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                        </PostRightIcons>
+
+                    </PostRight>
+
+                </Post>
+                <Post>
+                    <PostLeft>
+                        <PostLeftImage source={{ uri: imagemAvatar }} />
+                    </PostLeft>
+                    <PostRight>
+                        <PostRightName>
+                            <PostRightNamePerson>
+                                gustavo
+                            </PostRightNamePerson>
+                            <PostRightNameUser>
+                                @noronhaax
+                            </PostRightNameUser>
+                            <PostRightNameArrow>
+                                <MaterialIcons name="keyboard-arrow-down" size={25} color="white" />
+                            </PostRightNameArrow>
+                        </PostRightName>
+                        <PostRightText>
+                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
+                        </PostRightText>
+                        <PostRightIcons>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                        </PostRightIcons>
+
+                    </PostRight>
+
+                </Post>
+                <Post>
+                    <PostLeft>
+                        <PostLeftImage source={{ uri: imagemAvatar }} />
+                    </PostLeft>
+                    <PostRight>
+                        <PostRightName>
+                            <PostRightNamePerson>
+                                gustavo
+                            </PostRightNamePerson>
+                            <PostRightNameUser>
+                                @noronhaax
+                            </PostRightNameUser>
+                            <PostRightNameArrow>
+                                <MaterialIcons name="keyboard-arrow-down" size={25} color="white" />
+                            </PostRightNameArrow>
+                        </PostRightName>
+                        <PostRightText>
+                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
+                        </PostRightText>
+                        <PostRightIcons>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                        </PostRightIcons>
+
+                    </PostRight>
+
+                </Post>
+                <Post>
+                    <PostLeft>
+                        <PostLeftImage source={{ uri: imagemAvatar }} />
+                    </PostLeft>
+                    <PostRight>
+                        <PostRightName>
+                            <PostRightNamePerson>
+                                gustavo
+                            </PostRightNamePerson>
+                            <PostRightNameUser>
+                                @noronhaax
+                            </PostRightNameUser>
+                            <PostRightNameArrow>
+                                <MaterialIcons name="keyboard-arrow-down" size={25} color="white" />
+                            </PostRightNameArrow>
+                        </PostRightName>
+                        <PostRightText>
+                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
+                        </PostRightText>
+                        <PostRightIcons>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                        </PostRightIcons>
+
+                    </PostRight>
+
+                </Post>
+                <Post>
+                    <PostLeft>
+                        <PostLeftImage source={{ uri: imagemAvatar }} />
+                    </PostLeft>
+                    <PostRight>
+                        <PostRightName>
+                            <PostRightNamePerson>
+                                gustavo
+                            </PostRightNamePerson>
+                            <PostRightNameUser>
+                                @noronhaax
+                            </PostRightNameUser>
+                            <PostRightNameArrow>
+                                <MaterialIcons name="keyboard-arrow-down" size={25} color="white" />
+                            </PostRightNameArrow>
+                        </PostRightName>
+                        <PostRightText>
+                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
+                        </PostRightText>
+                        <PostRightIcons>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                        </PostRightIcons>
+
+                    </PostRight>
+
+                </Post>
+                <Post>
+                    <PostLeft>
+                        <PostLeftImage source={{ uri: imagemAvatar }} />
+                    </PostLeft>
+                    <PostRight>
+                        <PostRightName>
+                            <PostRightNamePerson>
+                                gustavo
+                            </PostRightNamePerson>
+                            <PostRightNameUser>
+                                @noronhaax
+                            </PostRightNameUser>
+                            <PostRightNameArrow>
+                                <MaterialIcons name="keyboard-arrow-down" size={25} color="white" />
+                            </PostRightNameArrow>
+                        </PostRightName>
+                        <PostRightText>
+                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
+                        </PostRightText>
+                        <PostRightIcons>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>

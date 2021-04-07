@@ -1,6 +1,7 @@
 import Styled from 'styled-components/native'
 
-export const TextHome = Styled.Text`
-    font-weight: bold;
-    font-size: 20px;
+export const LogoHome = Styled.Image`
+   height: 45px;
+   width: 55px;
+   margin-top:20px;
 `;
