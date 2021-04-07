@@ -11,7 +11,8 @@ Clone da parte visual da home do Twitter App com REACT NATIVE e Styled Component
 🚧 **Ainda em Construção** 🚧
 
 ## Imagens do Projeto
-![image](https://user-images.githubusercontent.com/77861206/106316870-2e5fd100-624c-11eb-9647-05b58a922afe.png)
+![image](https://user-images.githubusercontent.com/77861206/113804788-a4455480-9735-11eb-8c58-871700709a86.png)
+
 
 
 
