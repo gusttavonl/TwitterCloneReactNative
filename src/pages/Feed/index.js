@@ -11,6 +11,7 @@ import {
     PostRightNameUser,
     PostRightNameArrow,
     PostRightText,
+    PostRightImage,
     PostRightIcons,
     PostRightIconsItem,
     PostRightIconsItemOne
@@ -18,7 +19,7 @@ import {
 import { MaterialIcons } from '@expo/vector-icons';
 export default function Feed() {
     const imagemAvatar = "https://avatars.githubusercontent.com/u/77861206?v=4";
-   
+    const imagemBody = "https://user-images.githubusercontent.com/77861206/106316870-2e5fd100-624c-11eb-9647-05b58a922afe.png";
     return (
         <View>
             <PostList>
@@ -40,12 +41,13 @@ export default function Feed() {
                             </PostRightNameArrow>
                         </PostRightName>
                         <PostRightText>
-                            Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
+                            Ola, tudo bem??? Olha meu cloneeee do twiiiiteeeerrrr webbbbbbb #cooode ❤️
                         </PostRightText>
+                        <PostRightImage source={{uri: imagemBody}} />
                         <PostRightIcons>
-                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
-                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
-                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={23} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={23} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={23} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>
@@ -71,9 +73,9 @@ export default function Feed() {
                             Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
                         </PostRightText>
                         <PostRightIcons>
-                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
-                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
-                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={23} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={23} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={23} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>
@@ -99,9 +101,9 @@ export default function Feed() {
                             Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
                         </PostRightText>
                         <PostRightIcons>
-                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
-                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
-                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={23} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={23} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={23} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>
@@ -127,9 +129,9 @@ export default function Feed() {
                             Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
                         </PostRightText>
                         <PostRightIcons>
-                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
-                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
-                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={23} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={23} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={23} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>
@@ -155,9 +157,9 @@ export default function Feed() {
                             Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
                         </PostRightText>
                         <PostRightIcons>
-                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
-                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
-                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={23} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={23} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={23} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>
@@ -183,9 +185,9 @@ export default function Feed() {
                             Ola, tudo bem??? to fazendo uns testes aqui, escrevendo um monte e olha meu novo tweet cheio de emojis ❤️😄🙂
                         </PostRightText>
                         <PostRightIcons>
-                            <PostRightIconsItemOne><MaterialIcons name="message" size={25} color="white" /></PostRightIconsItemOne>
-                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={25} color="white" /></PostRightIconsItem>
-                            <PostRightIconsItem><MaterialIcons name="send" size={25} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItemOne><MaterialIcons name="message" size={23} color="white" /></PostRightIconsItemOne>
+                            <PostRightIconsItem><MaterialIcons name="favorite-border" size={23} color="white" /></PostRightIconsItem>
+                            <PostRightIconsItem><MaterialIcons name="send" size={23} color="white" /></PostRightIconsItem>
                         </PostRightIcons>
 
                     </PostRight>
